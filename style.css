@@ -1,0 +1,250 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  #box3{
+    background: lightgoldenrodyellow;
+    width: 400px;
+    height: 250px;
+    padding: 15px;
+    border: 1px solid #000;
+  }
+  
+  #myinput{
+    font-size: 21px;
+    padding: 15px;
+    margin: 10px;
+    width: 70%;
+  }
+
+  #box2 {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    background: pink;
+    margin: 20px;
+  }
+  #box1{
+    width: 2000px;
+    height: 100px;
+    border: 5px solid peachpuff;
+    margin-top: 50px;
+    margin-left: 90px;
+    background: purple;
+    overflow:auto;
+  }
+  #inner-box{
+    background: lightgreen;
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 10px;
+    overflow: auto;
+  }
+  #box{
+    width: 1000px;
+    height: 380px;
+    border: 5px solid red;
+    margin-top: 50px;
+    margin-left: 90px;
+    background: lightseagreen;
+    overflow:auto;
+  }
+  #div{
+    width: 150px;
+    height: 150px;
+    background: #000;
+  }
+  #list{
+      list-style-type: square;
+      color: blue;
+      position: inherit;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    #test {
+      width: 500px;
+      height: 300px; 
+      background-color: yellow;
+      border: 1px solid black; 
+      align-content: center;
+  }
+
+
+  /* Style for the outer div */
+#outer {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Style for the inner div */
+#inner {
+  background-color: lightblue;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+/* Style for the h2 tags */
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style for the child divs */
+#inner > div {
+  background-color: lightgreen;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Style for the specific child div with id "child-C" */
+#child-C {
+  background-color: lightcoral;
+}
+
+  #header{
+    color: #fff;
+  }
+  .abc{
+    background: crimson;
+  }
+  .xyz{
+    background: green;
+  }
+  .efg{
+    background: yellowgreen;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #ccc;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #555;
+  }
+  
+  /* Featured Content */
+  .featured-content {
+    padding: 50px 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial cite {
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
